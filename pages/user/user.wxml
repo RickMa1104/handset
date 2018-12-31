@@ -1,0 +1,23 @@
+<view>
+
+   <view class="userinfo">  
+      <view class="userinfo-avatar">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+       <open-data type="userNickName"></open-data>
+    </view>
+
+    <view class="weui-cells__title">个人中心</view>
+    <view class="weui-cells">
+        <view class="weui-cell" bindtap='onNear'>
+            <view class="weui-cell__bd">
+                <text>我的位置</text>
+            </view>   
+            <image style="width: 50rpx; height: 50rpx" src='../image/location.png' ></image>   
+        </view>
+
+
+        
+        
+    </view>    
+</view>

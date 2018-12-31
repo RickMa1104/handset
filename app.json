@@ -1,0 +1,39 @@
+{
+  "pages": [
+   
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#005d5e",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "green",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "遥控器",
+        "iconPath": "pages/image/handsetOff.png",
+        "selectedIconPath": "pages/image/handsetOn.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "pages/image/logsOff.png",
+        "selectedIconPath": "pages/image/logsOn.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "pages/image/userOff.png",
+        "selectedIconPath": "pages/image/userOn.png"
+      }
+  
+    ]
+  }
+}

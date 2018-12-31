@@ -1,0 +1,87 @@
+<!--index.wxml-->
+
+
+<view class="content">
+
+    <view class="screen">
+      {{screenData}}
+    </view>
+
+
+    <view class="highBt">
+        <view class="item orange" bindtap='onButton'>
+          <view wx:if="{{anion}}" id="anion">
+              <image class="iconsize" src='../image/anionOn.png' id="anion"></image>
+              负离子</view>
+          <view wx:else id="anion">
+                    <image class="iconsize" src='../image/anionOff.png' id="anion"></image>
+              负离子</view>
+          </view>
+
+          <view class="item orange" bindtap='onButton'>
+            <view wx:if="{{bac}}" id="bac">
+                <image class="iconsize" src='../image/bacOn.png' id="bac"></image>
+                杀菌</view>
+            <view wx:else id="bac">
+                      <image class="iconsize" src='../image/bacOff.png' id="bac"></image>
+                杀菌</view>
+            </view>   
+
+          <view class="item orange" bindtap='onButton'>
+          <view wx:if="{{time}}" id="time">
+              <image class="iconsize" src='../image/timeOn.png' id="time"></image>
+              定时</view>
+          <view wx:else id="time">
+                    <image class="iconsize" src='../image/timeOff.png' id="time"></image>
+              定时</view>
+          </view>
+
+           <view class="item orange" bindtap='onButton'>
+          <view wx:if="{{fan}}" id="fan">
+              <image class="iconsize" src='../image/fanOn.png' id="fan"></image>
+              风速</view>
+          <view wx:else id="fan">
+                    <image class="iconsize" src='../image/fanOff.png' id="fan"></image>
+              风速</view>
+          </view>
+
+    </view>
+
+    <view class="lowBt">
+      <view class="item orange" bindtap='onButton'>
+
+      <view wx:if="{{auto}}" id="auto">
+           <image class="iconsize" src='../image/autoOn.png' id="auto"></image>
+      自动</view>
+      <view wx:else id="auto">
+                 <image class="iconsize" src='../image/autoOff.png' id="auto"></image>
+      手动</view> 
+      </view>
+      <view class="item orange" bindtap='onButton'>
+
+       <view wx:if="{{power}}" id="power">
+          <image class="iconsize" src='../image/powerOn.png' id="power"></image>    
+       启动</view>
+      <view wx:else id="power">
+                <image class="iconsize" src='../image/powerOff.png' id="power"></image> 
+      关闭</view> 
+      </view>      
+      <view class="item orange" bindtap='onButton'>
+      <view wx:if="{{sleep}}" id="sleep">
+                <image class="iconsize"src='../image/sleepOn.png' id="sleep"></image>
+      睡眠</view>
+      <view wx:else id="sleep">
+                <image class="iconsize" src='../image/sleepOff.png' id="sleep"></image>
+      睡眠</view> 
+      </view>  
+      <view class="item orange" bindtap='onButton'>
+      <view wx:if="{{lock}}" id="lock">
+                 <image class="iconsize" src='../image/lockOn.png' id="lock"></image>
+      童锁</view>
+      <view wx:else id="lock">
+                 <image class="iconsize" src='../image/lockOff.png' id="lock"></image>
+      童锁</view> 
+      </view>  
+    </view>
+
+  </view>

@@ -1,0 +1,7 @@
+/* pages/map/map.wxss */
+.scanBt{
+position: absolute;
+bottom: 30px;
+left:40px;
+right:40px;  
+}
